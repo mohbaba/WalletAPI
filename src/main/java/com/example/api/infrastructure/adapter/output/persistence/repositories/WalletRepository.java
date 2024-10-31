@@ -4,4 +4,5 @@ import com.example.api.infrastructure.adapter.output.persistence.entities.Wallet
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface WalletRepository extends JpaRepository<WalletEntity, Long> {
+
 }

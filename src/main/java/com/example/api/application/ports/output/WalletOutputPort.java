@@ -4,5 +4,6 @@ import com.example.api.domain.models.Wallet;
 
 public interface WalletOutputPort {
     Wallet saveWallet(Wallet walletToSave);
+    Wallet getWallet(Long walletId);
 
 }
