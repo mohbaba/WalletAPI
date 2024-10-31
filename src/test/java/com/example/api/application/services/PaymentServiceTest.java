@@ -1,7 +1,7 @@
 package com.example.api.application.services;
 
-import com.example.api.application.services.payment.InitiateTransferResponse;
-import com.example.api.application.services.payment.TransferRecipientResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.InitiateTransferResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.TransferRecipientResponse;
 import com.example.api.domain.exceptions.MissingReferenceException;
 import com.example.api.infrastructure.adapter.input.rest.dtos.requests.CreateRecipientRequest;
 import com.example.api.infrastructure.adapter.input.rest.dtos.requests.RecipientType;

@@ -3,7 +3,7 @@ package com.example.api.infrastructure.adapter.input.rest;
 import com.example.api.application.ports.input.walletUsecases.DepositUseCase;
 import com.example.api.application.ports.input.walletUsecases.GetBalanceUseCase;
 import com.example.api.application.ports.input.walletUsecases.GetWalletUseCase;
-import com.example.api.application.services.payment.PaystackPaymentResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.PaystackPaymentResponse;
 import com.example.api.infrastructure.adapter.input.rest.dtos.requests.DepositRequest;
 import com.example.api.infrastructure.adapter.input.rest.dtos.responses.GetWalletResponse;
 import com.example.api.infrastructure.adapter.input.rest.dtos.responses.TransactionResponse;

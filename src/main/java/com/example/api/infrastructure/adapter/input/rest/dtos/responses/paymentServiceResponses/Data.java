@@ -1,4 +1,4 @@
-package com.example.api.application.services.payment;
+package com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses;
 
 import com.example.api.domain.models.TransactionStatus;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

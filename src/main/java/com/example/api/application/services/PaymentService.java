@@ -1,10 +1,10 @@
 package com.example.api.application.services;
 
 import com.example.api.application.ports.input.paystackUsecases.*;
-import com.example.api.application.services.payment.InitiateTransferResponse;
-import com.example.api.application.services.payment.PaystackPaymentResponse;
-import com.example.api.application.services.payment.PaystackVerificationResponse;
-import com.example.api.application.services.payment.TransferRecipientResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.InitiateTransferResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.PaystackPaymentResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.PaystackVerificationResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.TransferRecipientResponse;
 import com.example.api.domain.exceptions.ConnectionErrorException;
 import com.example.api.domain.exceptions.MissingReferenceException;
 import com.example.api.infrastructure.adapter.input.rest.dtos.requests.AcceptPaymentRequest;

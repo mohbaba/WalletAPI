@@ -1,7 +1,7 @@
 package com.example.api.application.services;
 
-import com.example.api.application.services.payment.PaystackPaymentResponse;
-import com.example.api.application.services.payment.PaystackVerificationResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.PaystackPaymentResponse;
+import com.example.api.infrastructure.adapter.input.rest.dtos.responses.paymentServiceResponses.PaystackVerificationResponse;
 import com.example.api.domain.models.*;
 import com.example.api.infrastructure.adapter.input.rest.dtos.requests.DepositRequest;
 import org.junit.jupiter.api.DisplayName;
