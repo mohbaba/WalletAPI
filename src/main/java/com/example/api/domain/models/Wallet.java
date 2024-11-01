@@ -27,26 +27,14 @@ public class Wallet {
     private BigDecimal balance = new BigDecimal(0);
     private Set<Transaction> transactions = new HashSet<>();
 
-
-    @Setter(AccessLevel.NONE)
     @JsonSerialize(using = LocalDateTimeSerializer.class)
     @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     private LocalDateTime timeCreated;
 
-    @Setter(AccessLevel.NONE)
     @JsonSerialize(using = LocalDateTimeSerializer.class)
     @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     private LocalDateTime timeUpdated;
 
-    @PrePersist
-    private void setTimeCreated() {
-        timeCreated = now();
-    }
-
-    @PreUpdate
-    private void setTimeUpdated() {
-        timeUpdated = now();
-    }
 
     public Wallet deposit(BigDecimal amount) {
         validateDepositAmount(amount);

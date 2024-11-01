@@ -10,6 +10,7 @@ import com.example.api.infrastructure.adapter.input.rest.dtos.responses.Transact
 import com.example.api.infrastructure.adapter.input.rest.mappers.TransactionRestMapper;
 import com.example.api.infrastructure.adapter.input.rest.mappers.WalletRestMapper;
 import lombok.RequiredArgsConstructor;
+import org.hibernate.validator.constraints.Length;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
